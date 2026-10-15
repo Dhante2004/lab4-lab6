@@ -1,0 +1,19 @@
+{
+  "name": "lab4-lab6-replica-set",
+  "version": "1.0.0",
+  "private": true,
+  "description": "MongoDB replica set failover lab and validated species CRUD CLI",
+  "type": "commonjs",
+  "scripts": {
+    "test": "node --test",
+    "start": "node src/cli.js",
+    "rs:init": "node scripts/init-replica-set.js",
+    "lab:experiment": "node scripts/run-failover-lab.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "mongodb": "^6.19.0"
+  }
+}
